@@ -109,5 +109,5 @@ enum HeroType: CustomStringConvertible {
             return "Tank: 🐼"
         }
     }
-    static var allTypes: [HeroType] { return [.offense, .defense, .support, .tank] }
+    static var allTypes: [HeroType] { return [.offense, .defense, .tank, .support] }
 }

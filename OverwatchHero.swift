@@ -78,5 +78,5 @@ extension OverwatchHero {
 }
 
 extension OverwatchHero {
-    var description: String { return "Name: \(name)\nType: \(heroType)\nAttack: \(fire)\nHeal: \(heal)\nHit Points: \(hitPoints)"}
+    var description: String { return "Name: \(name)\nType: \(heroType)\nAttack: \(fire())\nHeal: \(heal())\nHit Points: \(hitPoints)"}
 }
